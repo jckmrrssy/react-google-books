@@ -9,7 +9,7 @@ const App = () => (
     <div>
       <Nav />
         <Route exact path = '/' component = {Books} />
-        <Route exact path = '/books' component {Books} />
+        <Route exact path = '/books' component = {Books} />
         <Route exact path = '/books/:id' component = {Saved} />
     </div>
   </BrowserRouter>
