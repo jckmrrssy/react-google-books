@@ -7,7 +7,6 @@ import "./App.css";
 const App = () => (
   <BrowserRouter>
     <div>
-      <Nav />
         <Route exact path = '/' component = {Books} />
         <Route exact path = '/books' component = {Books} />
         <Route exact path = '/books/:id' component = {Saved} />
