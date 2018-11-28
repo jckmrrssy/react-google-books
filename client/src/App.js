@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {BrowserRouter, Route} from 'react-router-dom';
-import Nav from "./components/NavTabs"
+import NavTabs from './components/NavTabs'
 import Books from './pages/Books/Books';
 import Saved from './pages/Saved/Saved';
 import "./App.css";
