@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const NavTabs = () => (
     
     <nav class="blue-grey darken-4">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">Google Books Search</a>
+      <div class="nav-wrapper center-align">
+         Google Books Search
         <ul className ='nav'>
             <li className = 'nav-item'>
                 <Link
