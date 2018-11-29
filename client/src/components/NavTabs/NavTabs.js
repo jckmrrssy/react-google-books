@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 // NavBar 
 const NavTabs = () => (
     
-    <nav class="blue-grey darken-4">
-      <div class="nav-wrapper center-align">
+    <nav className="blue-grey darken-4">
+      <div className="nav-wrapper center-align">
          Google Books Search
         <ul className ='nav'>
             <li className = 'nav-item'>
@@ -13,7 +13,8 @@ const NavTabs = () => (
                     to = "/"
                     className = {
                         window.location.pathname === "/" ? "nav-link active" : "nav-link"
-                    } >Search
+                    } > 
+                    Search
                     </Link>
             </li>
             <li className="nav-item">

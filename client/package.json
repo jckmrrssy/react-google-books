@@ -1,7 +1,6 @@
 {
   "name": "mern",
   "version": "0.1.0",
-  "description": "Jems React App",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
