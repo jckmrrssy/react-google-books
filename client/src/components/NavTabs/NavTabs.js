@@ -10,7 +10,7 @@ const NavTabs = () => (
         <ul className ='nav'>
             <li className = 'nav-item'>
                 <Link
-                    to = '/'
+                    to = "/"
                     className = {
                         window.location.pathname === "/" ? "nav-link active" : "nav-link"
                     } >Search
