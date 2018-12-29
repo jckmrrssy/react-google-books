@@ -1,18 +1,20 @@
 import React from "react";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import NavTabs from "./components/NavTabs/NavTabs";
 import Books from "./pages/Books/Books";
 import Saved from "./pages/Saved/Saved";
 
 
 const App = () => (
-  <BrowserRouter>
+  <Router>
     <div>
         <NavTabs />
-        <Route exact path = "/" component = {Books} />
-        <Route exact path = "/books" component = {Saved} />
+        <Switch>
+          <Route exact path = "/" component = {Books} />
+          <Route exact path = "/books" component = {Saved} />
+        </Switch>
     </div>
-  </BrowserRouter>
+  </Router>
 );
 
-export default App;
+export default App; 
